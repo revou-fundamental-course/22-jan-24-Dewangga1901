@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #D2691E, #ffc400);
+    color: white;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+    padding: 20px 10%;
+    background: rgb(255, 217, 0);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    border: 5px;
+    border-color: aliceblue;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 15px;
+}
+
+.navbar a:hover {
+    color: rgb(255, 230, 8);
+}
+
+.judul {
+    height: 30vh;
+    display: grid;
+    padding: 10% 0% 5%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+}
+
+.home-content {
+    margin: 0%;
+    width: 50%;
+    height: 500px;
+    display: grid;
+    padding: 0% 2% 0 5%;
+    align-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-style: bold;
+    background-color: transparent;
+    line-height: 20px;
+}
+
+.form{
+    margin: 0%;
+    width: 50vw;
+    height: 500px;
+    display: flex;
+    padding: 0% 10% 0 10% ;
+    align-items: flex-start;
+    justify-content: left;
+    font-size: 15px;
+    font-style: normal;
+    background-color: transparent;
+}
+
+.content-form {
+    max-width: 50vw;
+    width: 100%;
+    padding: 30px 25px;
+    background-color: rgb(255, 217, 0);
+    border-radius: 5px;
+}
+
+.content-form .title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+
+.user-detail .input-box input {
+    height: 45px;
+    width: 100%;
+    padding-left: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: 0.3s ease;
+}
+
+.user-detail .input-box select {
+    height: 45px;
+    width: 100%;
+    padding-left: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: 0.3s ease;
+}
+
+.user-detail .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-detail .input-box :focus,
+.user-detail .input-box :valid {
+    border-color: black;
+}
+
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: white;
+    border: none;
+    background-color: chocolate;
+}
+
+
+.profile  {
+    margin: 0;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    padding: 0%;
+    display: flex;
+    font-size: 8px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    justify-content: left;
+}
+
+
+.photo{
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-right: 5%;
+}
+
+.benefit{
+    width: 50vw;
+    height: 30vh;
+    background-color: transparent;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    font-size: 12px;
+}
+
+.contain{
+    margin: 0;
+}
+
+.gambar{
+    border: 20px white;
+    border-radius: 10px;
+    float: top;
+    align-items: center;
+}
+
+.gambar :hover{
+    filter: grayscale(1);
+    transform: scale(1,03);
+}
+
+.char{
+    font-size: 7px;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.char p {
+    font-size: 10px;
+}
+
+.part{
+    display: flex;
+}
+
+.icon{
+    display: grid;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    size: 20px;
+    width: 50vw;
+    height: 20vh;
+    background-color: transparent;
+    justify-content: left;
+    margin: 0;
+    padding: 0% 5% 0% 10%;
+    align-items: center;
+}
+
+.number{
+    display: flex;
+    font-size: 15px;
+    justify-content: left;
+    width: 300px;
+    height: 30px;
+    padding: auto;
+    background-color: transparent;
+    white-space: 5px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.number p {
+    justify-content: left;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.number a {
+    font-size: 25px;
+    font-style: normal;
+    text-decoration: none;
+    padding: 5 5 5 5;
+    color: white;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 217, 0);
+    align-content: center;
+    text-align: center;
+}
+
+.number a:hover {
+    color: rgb(255, 217, 0);
+}
+
+.sub-benefit h2 {
+    margin: 0;
+    padding: 0% 5% 0% 10%;
+    font-size: 15px;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.isi-package{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;
+}
+
+.our-package .heading h2{
+    text-align: center;
+}
+ .our-package {
+    margin: 50px;
+ }
+
+.isi-package .box{
+    margin: 0;
+    width: 30vw;
+    height: 30vh;
+    background-color: #ffc400;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: #ccc;
+    text-align: center;
+    justify-content: center;
+}
+
